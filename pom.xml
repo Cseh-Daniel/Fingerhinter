@@ -28,6 +28,34 @@
             <artifactId>jaxb-runtime</artifactId>
             <version>2.3.3</version> <!-- Or use the latest version -->
         </dependency>
+
+        <!-- JAXB API -->
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.0</version> <!-- Use the latest version if newer -->
+        </dependency>
+
+        <!-- JAXB Runtime (for marshalling/unmarshalling operations) -->
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>4.0.0</version> <!-- Use the latest version if newer -->
+        </dependency>
+
+        <!-- JAXB Core (optional but recommended for advanced JAXB functionality) -->
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-core</artifactId>
+            <version>4.0.0</version> <!-- Use the latest version if newer -->
+        </dependency>
+
+        <!-- Optional dependency for logging and better error handling (recommended) -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.36</version> <!-- Adjust to the latest version -->
+        </dependency>
     </dependencies>
 
 </project>
